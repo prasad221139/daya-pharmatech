@@ -1,0 +1,255 @@
+/* ========== GLOBAL ========== */
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+section {
+  padding: 2.2rem 1rem;
+}
+
+/* ========== HERO ========== */
+.hero {
+  background: linear-gradient(135deg, #1e3a8a, #1f2937);
+  color: white;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  min-height: 240px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before,
+.hero::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+}
+
+.hero::before {
+  width: 500px;
+  height: 500px;
+  top: -120px;
+  right: -120px;
+  background: radial-gradient(circle, rgba(102, 126, 234, 0.2), transparent);
+}
+
+.hero::after {
+  width: 400px;
+  height: 400px;
+  bottom: -120px;
+  left: -120px;
+  background: radial-gradient(circle, rgba(118, 75, 162, 0.15), transparent);
+}
+
+.hero h1 {
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  margin-bottom: 0.7rem;
+}
+
+.hero-subtitle {
+  margin-bottom: 1.4rem;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+/* ========== BUTTON ========== */
+.cta-button {
+  background: white;
+  color: #1e3a8a;
+  padding: 0.7rem 1.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+}
+
+/* ========== PROMISE ========== */
+.our-promise {
+  background: linear-gradient(180deg, #ffffff, #eef2ff);
+  position: relative;
+}
+
+.promise-pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.pillar {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.6rem 1.3rem;
+  border-radius: 14px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.pillar:hover {
+  transform: translateY(-5px);
+}
+
+.pillar-icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.pillar h3 {
+  margin: 0.4rem 0;
+}
+
+.pillar p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* ========== SERVICES ========== */
+.core-services {
+  background: linear-gradient(135deg, #eef2ff, #ffffff);
+}
+
+.core-services h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.service-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.4rem;
+}
+
+.service-box {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 14px;
+  padding: 1.6rem 1.3rem;
+  text-align: center;
+  transition: 0.3s;
+  border: 1px solid #e2e8f0;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.service-box h3 {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+/* ========== FEATURES ========== */
+.features {
+  background: linear-gradient(180deg, #f8fafc, #e0e7ff);
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.4rem;
+}
+
+.feature-card {
+  background: white;
+  padding: 1.6rem 1.3rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-card h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.feature-card p {
+  font-size: 0.85rem;
+}
+
+/* ========== CTA (CLEAN CARD STYLE) ========== */
+.cta-section {
+  padding: 2rem 1rem;
+  background: #f8fafc;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-section .container {
+  background: white;
+  border-radius: 18px;
+  padding: 1.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  border: 1px solid #e2e8f0;
+}
+
+.cta-section h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #0f172a;
+}
+
+.cta-section p {
+  margin: 0.3rem 0 0;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.cta-section .cta-button {
+  background: #1e3a8a;
+  color: white;
+}
+
+.cta-section .cta-button:hover {
+  background: #162d6d;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  section {
+    padding: 1.8rem 1rem;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .pillar,
+  .service-box,
+  .feature-card {
+    padding: 1.3rem;
+  }
+
+  .cta-section .container {
+    text-align: center;
+    justify-content: center;
+  }
+}

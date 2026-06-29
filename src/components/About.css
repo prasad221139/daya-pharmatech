@@ -1,0 +1,114 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+/* HERO */
+.about-hero {
+  background: linear-gradient(135deg, #1e3a8a, #1f2937);
+  color: white;
+  padding: 2.5rem 1rem;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 2rem;
+}
+
+.about-hero p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* CONTENT */
+.about-content {
+  padding: 2rem 1rem;
+}
+
+.about-content .container {
+  max-width: 800px;
+}
+
+.about-content h2 {
+  margin-bottom: 0.8rem;
+}
+
+.about-content p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  color: #475569;
+}
+
+/* STATS (NEW PREMIUM) */
+.about-stats {
+  background: #f8fafc;
+  padding: 1.8rem 1rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  text-align: center;
+  gap: 1rem;
+}
+
+.stats-grid h3 {
+  font-size: 1.5rem;
+  color: #1e3a8a;
+  margin-bottom: 0.2rem;
+}
+
+.stats-grid p {
+  font-size: 0.8rem;
+  color: #475569;
+}
+
+/* TEAM */
+.team-section {
+  padding: 2rem 1rem;
+}
+
+.team-section h2 {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+/* Clean Simple Cards */
+.team-card {
+  background: #f8fafc;
+  padding: 1.2rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  transition: 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
+}
+
+.team-card h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+.team-card p {
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  .about-content,
+  .team-section {
+    padding: 1.6rem 1rem;
+  }
+}
