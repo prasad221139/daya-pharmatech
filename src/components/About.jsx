@@ -17,11 +17,11 @@ const About = () => {
         <div className="container">
           <h2>Our Story</h2>
           <p>
-            Founded in 2010, Daya Pharmatech has grown into a trusted pharmaceutical partner,
-            delivering high-quality contract development, manufacturing, and monitoring solutions.
+            Founded in 2025, Daya Pharmatech has grown into a trusted pharmaceutical partner,
+            delivering high-quality contract development and monitoring solutions.
           </p>
           <p>
-            With advanced infrastructure and experienced professionals, we support global clients
+            With advanced infrastructure and experienced professionals, we support  clients
             with reliable, compliant, and scalable pharmaceutical services.
           </p>
         </div>
@@ -32,15 +32,15 @@ const About = () => {
         <div className="container">
           <div className="stats-grid">
             <div>
-              <h3>15+</h3>
+              <h3>1+</h3>
               <p>Years Experience</p>
             </div>
             <div>
-              <h3>50+</h3>
-              <p>Global Clients</p>
+              <h3>10+</h3>
+              <p>Happy Clients</p>
             </div>
             <div>
-              <h3>100+</h3>
+              <h3>20+</h3>
               <p>Projects Delivered</p>
             </div>
             <div>
@@ -58,19 +58,19 @@ const About = () => {
 
           <div className="team-grid">
             <div className="team-card">
-              <h3>Dr. Rajesh Sharma</h3>
-              <p>Chief Executive Officer</p>
+              <h3>N. Annamani</h3>
+              <p>Proprietor</p>
             </div>
 
             <div className="team-card">
-              <h3>Dr. Priya Desai</h3>
-              <p>Head of Research</p>
+              <h3>N. Malathi</h3>
+              <p>Co-Proprietor</p>
             </div>
 
-            <div className="team-card">
+            {/* <div className="team-card">
               <h3>Vikram Patel</h3>
               <p>Manufacturing Director</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -24,7 +24,7 @@ const Contact = () => {
               <span>📍</span>
               <div>
                 <h3>Head Office</h3>
-                <p>Ahmedabad, Gujarat, India</p>
+                <p>Hyderabad,Telangana, India</p>
               </div>
             </div>
 
@@ -32,7 +32,7 @@ const Contact = () => {
               <span>📧</span>
               <div>
                 <h3>Email</h3>
-                <p>info@daya-pharmatech.com</p>
+                <p>dayapharmatechservices@gmail.com</p>
               </div>
             </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
               <span>📞</span>
               <div>
                 <h3>Phone</h3>
-                <p>+91 98765 43210</p>
+                <p>+91 8500916855</p>
               </div>
             </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
               <span>🕐</span>
               <div>
                 <h3>Working Hours</h3>
-                <p>Mon – Fri : 9 AM – 6 PM</p>
+                <p>Mon – Sat : 9 AM – 6 PM</p>
               </div>
             </div>
 
@@ -58,8 +58,8 @@ const Contact = () => {
               <p>Our team will respond within 24 hours</p>
 
               <div className="contact-actions">
-                <a href="mailto:info@daya-pharmatech.com">Email Us</a>
-                <a href="tel:+919876543210">Call Now</a>
+                <a href="mailto:dayapharmatechservices@gmail.com">Email Us</a>
+                <a href="tel:+918500916855">Call Now</a>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ const Contact = () => {
               <li>✔ Industry-expert consultation</li>
               <li>✔ Fast response time</li>
               <li>✔ Regulatory compliant solutions</li>
-              <li>✔ Global service support</li>
+              <li>✔ Tailored services for your needs</li>
             </ul>
           </div>
 
@@ -83,7 +83,7 @@ const Contact = () => {
         <h2>Our Location</h2>
         <iframe
           className="map-frame"
-          src="https://www.google.com/maps?q=Ahmedabad&output=embed"
+          src="https://www.google.com/maps?q=Hyderabad&Telangana&output=embed"
           loading="lazy"
         />
       </section>

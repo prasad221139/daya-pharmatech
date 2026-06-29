@@ -12,10 +12,13 @@ const Home = () => {
         <div className="hero-content">
           <h1>
             Trusted Partner for <br />
-            CALL BARIATRIC & ENVIRONMENTAL MONITORING SERVICES
+            CLEANROOM VALIDATION,CALIBRATION &ENVIRONMENTAL MONITORING SERVICES
           </h1>
           <p className="hero-subtitle">
-            Advanced Pharmaceutical Solutions for Bariatric & Environmental Monitoring
+            Reliable,Accurate, Complaint.
+          </p>
+          <p>
+            For Pharmaceutical,Biotechnology, Healthcare & Medical Device Industries.
           </p>
           <button className="cta-button" onClick={() => navigate('/services')}>
             Explore Services
@@ -54,19 +57,19 @@ const Home = () => {
           <div className="service-boxes">
             <div className="service-box">
               <div className="service-icon">⚙️</div>
-              <h3>Bariatric Solutions</h3>
+              <h3>Cleanroom Validation</h3>
             </div>
             <div className="service-box">
               <div className="service-icon">📊</div>
-              <h3>Environmental Monitoring</h3>
+              <h3>Temperature Mapping</h3>
             </div>
             <div className="service-box">
               <div className="service-icon">🔬</div>
-              <h3>Clinical Research</h3>
+              <h3>Compressed Air Testing</h3>
             </div>
             <div className="service-box">
               <div className="service-icon">✅</div>
-              <h3>Quality Assurance</h3>
+              <h3>Calibration Services</h3>
             </div>
           </div>
         </div>
@@ -74,28 +77,33 @@ const Home = () => {
 
       {/* Features */}
       <section className="features">
-        <div className="container">
-          <h2>Why Partner With Us?</h2>
-          <div className="features-grid">
-            <div className="feature-card">
-              <h3>🏆 Expertise</h3>
-              <p>20+ years industry experience</p>
-            </div>
-            <div className="feature-card">
-              <h3>📋 Certified</h3>
-              <p>Full compliance standards</p>
-            </div>
-            <div className="feature-card">
-              <h3>🌍 Global Reach</h3>
-              <p>Serving 50+ countries</p>
-            </div>
-            <div className="feature-card">
-              <h3>💼 Complete Solutions</h3>
-              <p>End-to-end services</p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container">
+    <h2>Why Partner With Us?</h2>
+    <div className="features-grid">
+      
+      <div className="feature-card">
+        <h3>📋 Certified</h3>
+        <p>Full compliance standards</p>
+      </div>
+
+      <div className="feature-card">
+        <h3>💼 Complete Solutions</h3>
+        <p>End-to-end services</p>
+      </div>
+
+      <div className="feature-card">
+        <h3>✅ Reliability</h3>
+        <p>Consistent and dependable service</p>
+      </div>
+
+      <div className="feature-card">
+        <h3>⚡ Fast Delivery</h3>
+        <p>Quick turnaround times</p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* CTA */}
       <section className="cta-section">
