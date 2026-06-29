@@ -50,13 +50,13 @@ const Services = () => {
             </div>
             <div className="service-card-full">
               <div className="service-icon">🧬</div>
-              <h3>Autoclave Mapping</h3>
+              <h3>Autoclave Validation</h3>
               <p>Sterilization validation and autoclave performance mapping for pharmaceutical equipment.</p>
             </div>
             <div className="service-card-full">
               <div className="service-icon">🔥</div>
-              <h3>Tray Dryer Mapping</h3>
-              <p>Temperature and humidity mapping for tray dryers and drying processes validation.</p>
+              <h3>Tray Dryer Validation</h3>
+              <p>Temperature and humidity validation for tray dryers and drying processes.</p>
             </div>
             <div className="service-card-full">
               <div className="service-icon">⚙️</div>

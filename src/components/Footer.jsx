@@ -26,8 +26,8 @@ const Footer = () => {
         {/* Right - Contact */}
         <div className="footer-contact">
           <h4>Contact</h4>
-          <p>Email: info@dayapharmatech.com</p>
-          <p>Phone: +91 98765 43210</p>
+          <p>Email: dayapharmatechservices@gmail.com</p>
+          <p>Phone: +91 8500916855</p>
           <p>India</p>
         </div>
 
